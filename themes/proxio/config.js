@@ -123,72 +123,55 @@ const CONFIG = {
 
   PROXIO_FOOTER_SLOGAN: '术业有专攻，寻术者日精进，寻道者殉道',
 
-  // 页脚三列菜单组
-  // 页脚菜单
-  PROXIO_FOOTER_LINKS: [
-    {
-      name: '友情链接',
-      menus: [
-        {
-          title: 'Tangly的学习笔记',
-          href: 'https://blog.tangly1024.com'
-        },
-        {
-          title: 'NotionNext',
-          href: 'https://www.tangly1024.com'
-        }
-      ]
-    },
-    {
-      name: '开发者',
-      menus: [
-        { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
-        {
-          title: '开发帮助',
-          href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
-        },
-        {
-          title: '功能反馈',
-          href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
-        },
-        {
-          title: '技术讨论',
-          href: 'https://github.com/tangly1024/NotionNext/discussions'
-        },
-        {
-          title: '关于作者',
-          href: 'https://blog.tangly1024.com/about'
-        }
-      ]
-    }
-  ],
+// 页脚三列菜单组
+PROXIO_FOOTER_LINKS: [
+  {
+    name: '友情链接',
+    menus: [
+      { title: 'Tangly的学习笔记', href: 'https://blog.tangly1024.com' },
+      { title: 'NotionNext', href: 'https://www.tangly1024.com' }
+    ]
+  },
+  {
+    name: '开发者',
+    menus: [
+      { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
+      { title: '开发帮助', href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next' },
+      { title: '功能反馈', href: 'https://github.com/tangly1024/NotionNext/issues/new/choose' },
+      { title: '技术讨论', href: 'https://github.com/tangly1024/NotionNext/discussions' },
+      { title: '关于作者', href: 'https://blog.tangly1024.com/about' }
+    ]
+  }
+],
 
-  PROXIO_FOOTER_BLOG_LATEST_TITLE: '最新文章',
+PROXIO_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
-  PROXIO_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
-  PROXIO_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
+PROXIO_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
+PROXIO_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
 
-  PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
-  PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
+PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
+PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
 
-  PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
-  PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
+PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
+PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
-  // 404页面的提示语
-  PROXIO_404_TITLE: '你访问的页面正如你的青春小鸟一去不回来了',
-  PROXIO_404_TEXT: '抱歉！您要查找的青春不存在。可能已经移动或删除。',
-  PROXIO_404_BACK: '回到主页',
+// 404
+PROXIO_404_TITLE: '你访问的页面正如你的青春小鸟一去不回来了',
+PROXIO_404_TEXT: '抱歉！您要查找的青春不存在。可能已经移动或删除。',
+PROXIO_404_BACK: '回到主页',
 
-  // 页面底部的行动呼吁模块
-  PROXIO_CTA_ENABLE: false,
-  PROXIO_CTA_TITLE: '与我建立联系',
-  PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
-  PROXIO_CTA_DESCRIPTION:
-    '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
-  PROXIO_CTA_BUTTON: true, // 是否显示按钮
-  PROXIO_CTA_BUTTON_URL: '/about',
-  PROXIO_CTA_BUTTON_TEXT: '联系我',
-  
-  PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  PROXIO_POST_REDIRECT_URL: 'www.work2death.icu/', // 重定向域名
-export default CONFIG 
+// CTA
+PROXIO_CTA_ENABLE: false,
+PROXIO_CTA_TITLE: '与我建立联系',
+PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
+PROXIO_CTA_DESCRIPTION: '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
+PROXIO_CTA_BUTTON: true,
+PROXIO_CTA_BUTTON_URL: '/about',
+PROXIO_CTA_BUTTON_TEXT: '联系我',
+
+// 文章重定向
+PROXIO_POST_REDIRECT_ENABLE: true,
+PROXIO_POST_REDIRECT_URL: 'https://www.work2death.icu/'
+}; // ← 结束 CONFIG 对象（确保文件前面是 const CONFIG = { ... }）
+export default CONFIG;
+
