@@ -80,9 +80,9 @@ const CONFIG = {
       text: 'Expand glabal business for a brake components company from the ground'
     },
    
-
+{
   //   FAQ 常见问题模块
-  PROXIO_FAQ_ENABLE: true ,// 常见问题模块开关
+  PROXIO_FAQ_ENABLE: true , // 常见问题模块开关
   PROXIO_FAQ_TITLE: '常见问题解答',
   PROXIO_FAQ_TEXT_1: '有任何问题吗？请看这里',
   PROXIO_FAQ_TEXT_2: '我非常开心能帮到你们',
@@ -92,7 +92,7 @@ const CONFIG = {
       a: 'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署'
     },
     
-
+{
   // 关于作者区块
   PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
   PROXIO_ABOUT_TITLE: '关于作者',
