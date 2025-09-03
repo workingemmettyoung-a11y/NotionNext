@@ -81,7 +81,7 @@ const CONFIG = {
     },
    
   // 首页用户测评区块
-  PROXIO_TESTIMONIALS_ENABLE: false, // 测评区块开关
+  PROXIO_TESTIMONIALS_ENABLE: true, // 测评区块开关
   PROXIO_TESTIMONIALS_TITLE: '用户反馈',
   PROXIO_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
   PROXIO_TESTIMONIALS_TEXT_2:
