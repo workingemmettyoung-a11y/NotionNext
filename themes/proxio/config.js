@@ -171,7 +171,7 @@ PROXIO_CTA_BUTTON_TEXT: '联系我',
 
 // 文章重定向
 PROXIO_POST_REDIRECT_ENABLE: true,
-PROXIO_POST_REDIRECT_URL: 'https://www.work2death.icu/'
-}; // ← 结束 CONFIG 对象（确保文件前面是 const CONFIG = { ... }）
+PROXIO_POST_REDIRECT_URL: 'https://www.work2death.icu/',
+}; 
 export default CONFIG;
 
