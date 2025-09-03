@@ -186,8 +186,6 @@ const CONFIG = {
   PROXIO_ABOUT_KEY_4: '累积胡思乱想时长（小时）',
   PROXIO_ABOUT_VAL_4: '10000+',
 
-  PROXIO_ABOUT_BUTTON_URL: '/about',
-  PROXIO_ABOUT_BUTTON_TEXT: '关于我',
 
   // 横向滚动文字
   PROXIO_BRANDS_ENABLE: true, // 滚动文字
@@ -202,43 +200,7 @@ const CONFIG = {
 
   // 页脚三列菜单组
   // 页脚菜单
-  PROXIO_FOOTER_LINKS: [
-    {
-      name: '友情链接',
-      menus: [
-        {
-          title: 'Tangly的学习笔记',
-          href: 'https://blog.tangly1024.com'
-        },
-        {
-          title: 'NotionNext',
-          href: 'https://www.tangly1024.com'
-        }
-      ]
-    },
-    {
-      name: '开发者',
-      menus: [
-        { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
-        {
-          title: '开发帮助',
-          href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
-        },
-        {
-          title: '功能反馈',
-          href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
-        },
-        {
-          title: '技术讨论',
-          href: 'https://github.com/tangly1024/NotionNext/discussions'
-        },
-        {
-          title: '关于作者',
-          href: 'https://blog.tangly1024.com/about'
-        }
-      ]
-    }
-  ],
+ 
 
   PROXIO_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
