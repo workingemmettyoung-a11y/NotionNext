@@ -190,5 +190,5 @@ const CONFIG = {
   PROXIO_CTA_BUTTON_TEXT: '联系我',
   
   PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  PROXIO_POST_REDIRECT_URL: 'https://www.work2death.icu/', // 重定向域名
+  PROXIO_POST_REDIRECT_URL: 'www.work2death.icu/', // 重定向域名
 export default CONFIG 
