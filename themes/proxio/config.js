@@ -82,7 +82,7 @@ const CONFIG = {
    
 
   //   FAQ 常见问题模块
-  PROXIO_FAQ_ENABLE: true, // 常见问题模块开关
+  PROXIO_FAQ_ENABLE: true ,// 常见问题模块开关
   PROXIO_FAQ_TITLE: '常见问题解答',
   PROXIO_FAQ_TEXT_1: '有任何问题吗？请看这里',
   PROXIO_FAQ_TEXT_2: '我非常开心能帮到你们',
