@@ -79,11 +79,7 @@ const CONFIG = {
       bio: '2023-Now',
       text: 'Expand glabal business for a brake components company from the ground'
     },
-    {
-      title: 
-    }
-  ],
-
+   
   // 首页用户测评区块
   PROXIO_TESTIMONIALS_ENABLE: false, // 测评区块开关
   PROXIO_TESTIMONIALS_TITLE: '用户反馈',
