@@ -203,7 +203,7 @@ const CONFIG = {
     '文史哲爱好者'
   ],
 
-  PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  PROXIO_FOOTER_SLOGAN: '术业有专攻，寻术者日精进，寻道者殉道',
 
   // 页脚三列菜单组
   // 页脚菜单
