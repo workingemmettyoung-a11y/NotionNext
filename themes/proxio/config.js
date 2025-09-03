@@ -243,12 +243,12 @@ const CONFIG = {
   PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
   // 404页面的提示语
-  PROXIO_404_TITLE: '我们似乎找不到您要找的页面。',
-  PROXIO_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
+  PROXIO_404_TITLE: '你访问的页面正如你的青春小鸟一去不回来了',
+  PROXIO_404_TEXT: '抱歉！您要查找的青春不存在。可能已经移动或删除。',
   PROXIO_404_BACK: '回到主页',
 
   // 页面底部的行动呼吁模块
-  PROXIO_CTA_ENABLE: true,
+  PROXIO_CTA_ENABLE: false,
   PROXIO_CTA_TITLE: '与我建立联系',
   PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
   PROXIO_CTA_DESCRIPTION:
@@ -258,7 +258,7 @@ const CONFIG = {
   PROXIO_CTA_BUTTON_TEXT: '联系我',
 
   PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+  PROXIO_POST_REDIRECT_URL: 'https://www.work2death.icu/', // 重定向域名
   PROXIO_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_PROXIO_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
