@@ -68,5 +68,8 @@ const BLOG = {
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
 }
+CUSTOM_EXTERNAL_JS: [
+  'https://vercount.one/js'
+]
 
 module.exports = BLOG
