@@ -69,5 +69,10 @@ const BLOG = {
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
 }
 <script defer src="https://events.vercount.one/js"></script>
+Total Page View <span id="vercount_value_page_pv">Loading</span>
+
+Total Visits <span id="vercount_value_site_pv">Loading</span>
+
+Site Total Visitors <span id="vercount_value_site_uv">Loading</span>
 
 module.exports = BLOG
