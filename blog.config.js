@@ -47,8 +47,14 @@ const BLOG = {
   ...require('./conf/dev.config'), // 开发、调试时需要关注的配置
 
   // 自定义外部脚本，外部样式
-  CUSTOM_EXTERNAL_JS: [''], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
+  CUSTOM_EXTERNAL_JS: ['https://vercount.one/js'], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
   CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
+
+  Total Page View <span id="vercount_value_page_pv">Loading</span>
+
+Total Visits <span id="vercount_value_site_pv">Loading</span>
+
+Site Total Visitors <span id="vercount_value_site_uv">Loading</span>
 
   // 自定义菜单
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || true, // 支持Menu类型的菜单，替代了3.12版本前的Page类型
@@ -68,11 +74,6 @@ const BLOG = {
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
 }
-<script defer src="https://events.vercount.one/js"></script>
-Total Page View <span id="vercount_value_page_pv">Loading</span>
 
-Total Visits <span id="vercount_value_site_pv">Loading</span>
-
-Site Total Visitors <span id="vercount_value_site_uv">Loading</span>
 
 module.exports = BLOG
