@@ -68,8 +68,6 @@ const BLOG = {
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
 }
-CUSTOM_EXTERNAL_JS: [
-  'https://vercount.one/js'
-]
+<script defer src="https://events.vercount.one/js"></script>
 
 module.exports = BLOG
